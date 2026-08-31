@@ -10,6 +10,6 @@ def get_number():
 
 def meow(n):
     for _ in range(n):
-        print("Meow----")
+        print("Meoooooow")
 
 main()
