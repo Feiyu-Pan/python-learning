@@ -1,8 +1,9 @@
 def main():
-    create_square(4)
+    size = int(input("What's the size? "))
+    create_square(size)
 
 def create_square(size):
-    for i in range(size):
+    for _ in range(size):
         print("#" * size)
 
 main()
